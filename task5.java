@@ -47,6 +47,17 @@ public class task5 {
         // 101.5 + 2.5 = 104.0 (double)
 
         System.out.println(result);
+
+        // Особенности с char
+
+        char c1 = 'A';        // Unicode 65
+        char c2 = 'B';        // Unicode 66
+
+        int sum = c1 + c2;    // char + char → оба расширяются до int
+        char result = (char)(c1 + 1); // 'A' + 1 → 'B'
+
+        System.out.println("Сумма кодов: " + sum);      // Сумма кодов: 131
+        System.out.println("Следующая буква: " + result); // Следующая буква: B
     }
 
 }
