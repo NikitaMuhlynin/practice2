@@ -39,14 +39,14 @@ public class task5 {
         double d_2 = 2.5;
 
         // Цепочка операций
-        double result = b_2 + s_2 + i_3 + l_2 + f_2 + d_2;
+        double result7 = b_2 + s_2 + i_3 + l_2 + f_2 + d_2;
         // 10 + 20 = 30 (int)
         // 30 + 30 = 60 (int)
         // 60 + 40 = 100 (long)
         // 100 + 1.5 = 101.5 (float)
         // 101.5 + 2.5 = 104.0 (double)
 
-        System.out.println(result);
+        System.out.println(result7);
 
         // Особенности с char
 
@@ -54,10 +54,10 @@ public class task5 {
         char c2 = 'B';        // Unicode 66
 
         int sum = c1 + c2;    // char + char → оба расширяются до int
-        char result = (char)(c1 + 1); // 'A' + 1 → 'B'
+        char result8 = (char)(c1 + 1); // 'A' + 1 → 'B'
 
         System.out.println("Сумма кодов: " + sum);      // Сумма кодов: 131
-        System.out.println("Следующая буква: " + result); // Следующая буква: B
+        System.out.println("Следующая буква: " + result8); // Следующая буква: B
     }
 
 }
